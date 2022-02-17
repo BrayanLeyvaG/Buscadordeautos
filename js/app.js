@@ -86,7 +86,7 @@ function mostrarAutos (autos) {
         const img = document.createElement('img');
 
         autoHTML.textContent = `
-            ${marca} ${modelo} - ${year} - Color: ${color} - ${puertas} puertas - Transmisión: ${transmision} - Precion: ${precio}
+            ${marca} ${modelo} - ${year} - Color: ${color} - ${puertas} puertas - Transmisión: ${transmision} - Precio: ${precio}
         `;
 
         img.src = url
